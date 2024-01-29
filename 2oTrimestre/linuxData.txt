@@ -1,0 +1,32 @@
+Crear variables:
+	- Escribes el nombre de la variable igualada a su valor. EJE. -> variable1="hola"
+
+
+Acceder a variables:
+	- Escribes -> echo $variable1
+
+
+Imprimir variables (Ejemplo con 3 variables):
+	- printf "%15s%15s%15d\n" $variable1 variable2 variable3
+
+	- Se separa cada columna con '%'
+	-'s' quiere decir string, 'd' para números y 'f' para float.
+
+
+Borrar variables:
+	- unset variable2
+
+
+Hacer un array (lista):
+	- lista=($variable1 $variable2 $variable3)
+
+
+Acceder un espacio de lista:
+	- echo ${iniciales[1]} --- (accedemos a la segunda posición, osea variable2)
+
+
+Crear un alias (meter un conjunto de comandos en un alias):
+	- alias nombreAlias="ls -l"
+
+Contar palabras:
+	- wc

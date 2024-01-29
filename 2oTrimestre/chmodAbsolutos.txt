@@ -1,0 +1,3 @@
+x = 1 (ejecucion)
+w = 2 (escritura)
+r = 4 (lectura)
