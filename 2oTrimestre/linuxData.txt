@@ -30,3 +30,13 @@ Crear un alias (meter un conjunto de comandos en un alias):
 
 Contar palabras:
 	- wc
+
+======================================
+Crear un script
+	- vim 'nombreScript.sh'
+	- 'i' entrar en el modo insertar.
+	- Una vez dentro, la primera línea es siempre -> #!/bin/bash
+	- Escribimos los comandos de código que queramos en nuestro script
+	- Al finalizar pulsamos 'ESC' y escribimos -> ':wq'
+	- Finalmente para ejecutar el script -> ./nombreScript.sh
+
