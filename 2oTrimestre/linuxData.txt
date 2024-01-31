@@ -40,3 +40,12 @@ Crear un script
 	- Al finalizar pulsamos 'ESC' y escribimos -> ':wq'
 	- Finalmente para ejecutar el script -> ./nombreScript.sh
 
+=======================================
+generar token en github -> settings >> developer settings >> personal acces tokens >> tokens classic >> generate new token (classic)
+
+	- [contraseña token] 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 
+
+	- En terminal -> git config --global credential.helper store
+	- En terminal -> git clone {enlace del reposito
+	- En terminal -> nombre de usuario ; contraseña: {el token que hemos generado} >> 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 
+
