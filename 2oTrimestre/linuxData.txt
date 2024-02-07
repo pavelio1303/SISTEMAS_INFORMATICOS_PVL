@@ -1,6 +1,9 @@
 Crear variables:
 	- Escribes el nombre de la variable igualada a su valor. EJE. -> variable1="hola"
 
+Print con salto de línea más o menos:
+	- echo "lo que sea"
+
 
 Acceder a variables:
 	- Escribes -> echo $variable1
@@ -46,6 +49,9 @@ generar token en github -> settings >> developer settings >> personal acces toke
 	- [contraseña token] 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 
 
 	- En terminal -> git config --global credential.helper store
-	- En terminal -> git clone {enlace del reposito
+	- En terminal -> git clone {enlace del reposito}
 	- En terminal -> nombre de usuario ; contraseña: {el token que hemos generado} >> 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 
 
+
+
+https://github.com/STEMgranada/pt9-unix-linux-2-pavelio1303.git
